@@ -1,11 +1,14 @@
-import React from 'react';
-class App extends React.Component {
- render() {
-  return(
-   <div>
-   <h1> My App Component configured uing babel and webpack.... </h1>
-   </div>
-  );
- }
+import React, { Component } from "react";
+import Weather from './Weather';
+class App extends Component {
+  //state = {  }
+  render() {
+    return (
+      <div >
+        <Weather />
+      </div>
+    );
+  }
 }
-export default App
+
+export default App;
